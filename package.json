@@ -1,0 +1,16 @@
+{
+  "name": "textBlobs",
+  "version": "1.0.0",
+  "description": "Text Blobs",
+  "main": "app.js",
+  "scripts": {
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "p5" : "*"
+  },
+  "devDependencies": {
+  }
+}
