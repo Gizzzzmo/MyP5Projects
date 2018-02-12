@@ -9,7 +9,7 @@ let timeprogression = 1
 
 let structure
 
-let prog = ['Heyyyyyyy', 'Naaaaaa?', ':PPPPPP']
+let prog = ['text', 'more text', 'xddddd']
 let current = 0
 
 var settext = (st, text, size, x, y, sFactor) => {st.setTarget(ft.textToPoints(text, x, y, size, {sampleFactor : sFactor}))}
@@ -18,7 +18,7 @@ function preload(){
     try{
     ft = loadFont('fonts/l_10646.ttf')
     }catch(exc){
-        alert("please create a font folder and put in any font you like")
+        alert("please specify a font in sketch.js")
     }
 }
 
